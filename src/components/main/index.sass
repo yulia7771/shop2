@@ -1,0 +1,60 @@
+@import ../common
+
+$component: "main"
+
+@font-face
+  font-family: "league-spartan"
+  src: url("fonts/league-spartan.ttf")
+
+@font-face
+  font-family: "hk-grotesk-light"
+  src: url("fonts/hk-grotesk-light.otf")
+
+.main
+  background: url(image-path('bg.png')) no-repeat
+  width: 1160px
+  height: 690px
+  margin: 0 auto
+  position: relative
+
+  .content
+    width: 364px
+    padding-top: 106px
+    padding-left: 59px
+
+    .title
+      font-family: "league-spartan", sans-serif
+      font-weight: bold
+      color: #ffffff
+      font-size: 80px
+      text-transform: uppercase
+
+    .description
+      font-family: "hk-grotesk-light", sans-serif
+      color: #ffffff
+      font-size: 32px
+      margin-top: 16px
+      padding-left: 1px
+      line-height: 39px
+
+    a.shop
+      height: 54px
+      line-height: 54px
+      padding-left: 24px
+      padding-right: 24px
+      display: inline-block
+      text-decoration: none
+      border: 3px solid #e5c8a2
+      margin-top: 134px
+      color: #ffffff
+      font-size: 24px
+      font-family: "hk-grotesk-light", sans-serif
+
+  a.kickstarter
+    background: url(image-path('kickstarter.png')) no-repeat
+    width: 112px
+    height: 115px
+    position: absolute
+    top: 37px
+    right: 37px
+

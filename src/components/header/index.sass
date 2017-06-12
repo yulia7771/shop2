@@ -1,0 +1,35 @@
+@import ../common
+
+$component: "header"
+
+@font-face
+  font-family: "hk-grotesk-light"
+  src: url("fonts/hk-grotesk-light.otf")
+
+.header
+  width: 1160px
+  height: 125px
+  margin: 0 auto
+  padding-top: 63px
+
+  .logo
+    background: url(image-path('logo.png')) no-repeat
+    height: 72px
+    width: 294px
+
+  .search
+    font-family: "hk-grotesk-light", sans-serif
+    font-size: 24px
+    line-height: 24px
+    float: right
+    border: none
+    border-bottom: 3px solid #63757e
+    width: 144px
+    background: url(image-path('loupe.png')) no-repeat 1px 3px
+    padding: 0 0 5px 32px
+    color: #92a1a9
+    margin-top: 17px
+    outline: none
+
+    &::placeholder
+      color: #92a1a9

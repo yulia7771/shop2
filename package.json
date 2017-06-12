@@ -1,0 +1,25 @@
+{
+  "name": "shop2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-pug": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "minimist": "^1.2.0",
+    "node-sass": "^4.5.0",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "gulp-debug": "^3.1.0"
+  }
+}

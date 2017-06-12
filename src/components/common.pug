@@ -1,0 +1,6 @@
+mixin component(name)
+  - var savedComponent = currentComponent
+  - currentComponent = name
+  block
+
+  - currentComponent = savedComponent
