@@ -1,0 +1,118 @@
+@import ../common
+
+$component: "products"
+
+@font-face
+  font-family: "league-spartan"
+  src: url("fonts/league-spartan.ttf")
+
+@font-face
+  font-family: "hk-grotesk-light"
+  src: url("fonts/hk-grotesk-light.otf")
+
+.products
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  width: 1160px
+  margin: 0 auto
+  margin-top: 40px
+  color: #ffffff
+
+  .title
+    font-family: "league-spartan", sans-serif
+    font-weight: bold
+    text-transform: uppercase
+
+  .description
+    font-family: "hk-grotesk-light", sans-serif
+
+  a
+    height: 42px
+    line-height: 46px
+    display: inline-block
+    text-decoration: none
+    border: 3px solid #e5c8a2
+    margin-top: 58px
+    font-family: "league-spartan", sans-serif
+    font-weight: bold
+    font-size: 18px
+    text-transform: uppercase
+    color: #ffffff
+
+  .product-big
+    flex: 0 0 560px
+    height: 520px
+    color: #ffffff
+
+    .title
+      font-size: 48px
+      padding-top: 62px
+
+    .description
+      font-size: 24px
+      margin-top: 6px
+
+    .buy
+      padding-left: 38px
+      padding-right: 38px
+
+  .product-small
+    margin-top: 40px
+    flex: 0 0 360px
+    height: 440px
+    text-align: center
+
+    .details
+      padding-left: 20px
+      padding-right: 20px
+      margin-top: 27px
+
+    .title
+      margin-top: 12px
+      font-size: 32px
+
+    .description
+      padding-top: 65px
+      font-size: 16px
+
+  .product1
+    background: url(image-path('product1.png')) no-repeat
+    text-align: right
+
+    .title
+      padding-right: 28px
+
+    .description
+      padding-right: 28px
+      padding-left: 87px
+
+    a.buy
+      margin-right: 28px
+
+
+  .product2
+    background: url(image-path('product2.png')) no-repeat
+    text-align: left
+
+    .title
+      padding-left: 28px
+
+    .description
+      padding-left: 28px
+      width: 342px
+
+    a.buy
+      margin-left: 31px
+
+  .product3
+    background: url(image-path('product3.png')) no-repeat
+
+  .product4
+    background: url(image-path('product4.png')) no-repeat
+    .description
+      margin-top: 192px
+
+  .product5
+    background: url(image-path('product5.png')) no-repeat
+
