@@ -1,0 +1,66 @@
+@import ../common
+
+$component: "newsletter"
+
+@font-face
+  font-family: "league-spartan"
+  src: url("fonts/league-spartan.ttf")
+
+@font-face
+  font-family: "hk-grotesk-light"
+  src: url("fonts/hk-grotesk-light.otf")
+
+.newsletter
+  width: 810px
+  margin: 150px auto 0
+  text-align: center
+
+  .title
+    color: #92a1a9
+    font-size: 36px
+    font-family: "hk-grotesk-light", sans-serif
+
+  .description
+    color: #7f919b
+    font-size: 18px
+    font-family: "hk-grotesk-light", sans-serif
+    margin-top: 14px
+    padding-left: 1px
+
+  form
+    $form-width: 360px
+
+    width: $form-width
+    margin: 49px auto 0
+
+    input
+      box-sizing: border-box
+      display: inline-block
+      text-align: center
+      width: $form-width
+      font-size: 24px
+      line-height: 24px
+      background: transparent
+      border: 3px solid #63757e
+      padding: 13px 0 12px 3px
+      font-family: "hk-grotesk-light", sans-serif
+      outline: none
+
+      &::placeholder
+        color: #92a1a9
+
+    button
+      display: inline-block
+      color: #ffffff
+      font-weight: bold
+      text-transform: uppercase
+      font-family: "league-spartan", sans-serif
+      border: 3px solid #82c9d8
+      text-align: center
+      width: $form-width
+      font-size: 18px
+      line-height: 24px
+      background: transparent
+      padding: 18px 0 12px 12px
+      margin-top: 20px
+      letter-spacing: 2px
