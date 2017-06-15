@@ -1,0 +1,7 @@
+include ../common
+
+
+mixin btn-link(text, url, mod)
+  +component('btn-link')
+
+    a.btn-link(href= url || '#', class= mod)= text

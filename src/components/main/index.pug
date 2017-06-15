@@ -1,4 +1,5 @@
 include ../common
+include ../btn-link/index
 
 +component('main')
   .main
@@ -8,4 +9,4 @@ include ../common
       .description
         | A coffee instrument combining classic
         | coffee techniques with the latest technology
-      a.shop(href="#") Shop Now
+      +btn-link("Shop Now", "#", 'big')

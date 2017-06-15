@@ -1,4 +1,5 @@
 @import ../common
+@import ../btn-link/index
 
 $component: "products"
 
@@ -20,34 +21,24 @@ $component: "products"
     font-weight: bold
     text-transform: uppercase
 
-  a
-    height: 42px
-    line-height: 48px
-    display: inline-block
-    text-decoration: none
-    border: 3px solid #e5c8a2
-    margin-top: 58px
-    font-family: "league-spartan", sans-serif
-    font-weight: bold
-    font-size: 18px
+  .btn-link
     text-transform: uppercase
-    color: #ffffff
+    margin-top: 27px
 
   .product-big
+    padding: 30px
+    box-sizing: border-box
     flex: 0 0 560px
     height: 520px
     color: #ffffff
 
     .title
       font-size: 48px
-      padding-top: 62px
+      padding-top: 32px
 
     .description
       font-size: 24px
       margin-top: 6px
-
-    .buy
-      padding: 0 38px
 
   .product-small
     margin-top: 40px
@@ -57,11 +48,6 @@ $component: "products"
     box-sizing: border-box
     padding: 40px
     position: relative
-
-    .details
-      padding-left: 20px
-      padding-right: 20px
-      margin-top: 27px
 
     .title
       margin-top: 12px
@@ -74,29 +60,15 @@ $component: "products"
     background: url(image-path('product1.png')) no-repeat
     text-align: right
 
-    .title
-      padding-right: 28px
-
     .description
-      padding-right: 28px
-      padding-left: 87px
-
-    a.buy
-      margin-right: 28px
+      padding-left: 50px
 
   .product2
     background: url(image-path('product2.png')) no-repeat
     text-align: left
 
-    .title
-      padding-left: 28px
-
     .description
-      padding-left: 28px
       width: 342px
-
-    a.buy
-      margin-left: 31px
 
   .product3
     background: url(image-path('product3.png')) no-repeat

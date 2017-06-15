@@ -1,27 +1,29 @@
 include ../common
+include ../btn-link/index
+
 
 +component('products')
   .products
     .product-big.product1
       .title BEOPLAY A1
       .description The ultra-portable Bluetooth speaker that will travel with you anywhere
-      a.buy(href="#") Buy
+      +btn-link("Buy")
     .product-big.product2
       .title Leica MP
       .description Focused technology for focused photography
-      a.buy(href="#") Buy
+      +btn-link("Buy")
     .product-small.product3
       .content
         .description The world’s first molecular air purifier
         .title Molekule
-        a.details(href="#") Details
+        +btn-link("Details")
     .product-small.product4
       .content
         .description Bowers & Wilkins
         .title P9 Signature
-        a.details(href="#") Details
+        +btn-link("Details")
     .product-small.product5
       .content
         .description An homage to Dieter Rams
         .title DR-II
-        a.details(href="#") Details
+        +btn-link("Details")
