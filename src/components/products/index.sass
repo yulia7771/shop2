@@ -29,7 +29,7 @@ $component: "products"
 
   a
     height: 42px
-    line-height: 46px
+    line-height: 48px
     display: inline-block
     text-decoration: none
     border: 3px solid #e5c8a2
@@ -54,14 +54,16 @@ $component: "products"
       margin-top: 6px
 
     .buy
-      padding-left: 38px
-      padding-right: 38px
+      padding: 0 38px
 
   .product-small
     margin-top: 40px
     flex: 0 0 360px
     height: 440px
     text-align: center
+    box-sizing: border-box
+    padding: 40px
+    position: relative
 
     .details
       padding-left: 20px
@@ -73,7 +75,6 @@ $component: "products"
       font-size: 32px
 
     .description
-      padding-top: 65px
       font-size: 16px
 
   .product1
@@ -89,7 +90,6 @@ $component: "products"
 
     a.buy
       margin-right: 28px
-
 
   .product2
     background: url(image-path('product2.png')) no-repeat
@@ -110,8 +110,12 @@ $component: "products"
 
   .product4
     background: url(image-path('product4.png')) no-repeat
-    .description
-      margin-top: 192px
+
+    .content
+      position: absolute
+      bottom: 40px
+      left: 40px
+      right: 40px
 
   .product5
     background: url(image-path('product5.png')) no-repeat
